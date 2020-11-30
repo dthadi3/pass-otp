@@ -1,6 +1,10 @@
 dist: trusty
 sudo: false
 
+arch:
+  - AMD64
+  - ppc64le
+
 language: bash
 
 env:
